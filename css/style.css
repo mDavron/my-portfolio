@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /* Logo font */
-@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
 
 * {
   box-sizing: border-box;
@@ -17,7 +17,7 @@ html {
 
 body {
   height: 100vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
@@ -33,7 +33,7 @@ a.my-logo {
   font-weight: bolder;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Qwigley', cursive, sans-serif;
+  font-family: "Qwigley", cursive, sans-serif;
   /* font-family: 'Times New Roman', Times, serif; */
 }
 
@@ -47,7 +47,7 @@ a.my-logo {
   border-radius: 3px;
   letter-spacing: 1.5px;
   color: #fff !important;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   font-size: 18px;
 }
 
@@ -110,7 +110,7 @@ a.my-logo {
 /* ======== typed text style end ======== */
 
 .username {
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
 .about-img {
@@ -145,20 +145,19 @@ a.my-logo {
   width: 0px;
   z-index: 10;
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .social_icons.show-icon {
   left: 0;
   width: 40px;
-
 }
 
 .social_icons i {
   font-size: 25px;
   color: #333;
   opacity: 0.3;
-  transition: all .3s;
+  transition: all 0.3s;
   transform: scale(0.98);
 }
 
@@ -187,6 +186,7 @@ a.my-logo {
 .card img {
   height: 250px;
   width: 100%;
+  object-fit: contain;
 }
 
 /* ============== portfolio  style end ============= */
@@ -207,7 +207,7 @@ a.my-logo {
 }
 
 #my-sertificates .card {
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 #my-sertificates .card:hover {
@@ -226,7 +226,7 @@ a.my-logo {
 }
 
 .progres_item h3 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -250,11 +250,10 @@ a.my-logo {
   justify-content: center;
   align-items: center;
   text-align: center;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
   text-decoration: none;
   z-index: 100;
 }
-
 
 .to-top.active {
   opacity: 1;
@@ -274,7 +273,6 @@ a.my-logo {
 
 /* TYPING TEXT ANIMATION */
 @keyframes animate {
-
   40%,
   60% {
     left: calc(100% + 4px);
@@ -287,18 +285,17 @@ a.my-logo {
 
 /* ALL SOCIAL ICONS */
 i {
-  transition: all .3s ease;
-
+  transition: all 0.3s ease;
 }
 
 i:hover {
   transform: scale(1.1);
-  box-shadow: 0px 10px -14px 14px #FFF;
-  -webkit-box-shadow: 0px 10px -14px 14px #FFF;
+  box-shadow: 0px 10px -14px 14px #fff;
+  -webkit-box-shadow: 0px 10px -14px 14px #fff;
   -moz-box-shadow: 0px 10px -14px 14px rgb(255, 255, 255);
 }
 
-@media(max-width:1024px) {
+@media (max-width: 1024px) {
   .about-img {
     position: relative;
     width: 470px;
@@ -306,7 +303,7 @@ i:hover {
   }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .about-img {
     position: relative;
     width: 100%;
@@ -314,13 +311,13 @@ i:hover {
   }
 }
 
-@media(max-width:960px) {
+@media (max-width: 960px) {
   .nav-link {
     margin: 15px 0px !important;
   }
 }
 
-@media(max-width:576px) {
+@media (max-width: 576px) {
   .about-img {
     width: 90%;
     height: 300px;
@@ -335,13 +332,13 @@ i:hover {
   }
 }
 /* REVEAL */
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
-.reveal.active{
+.reveal.active {
   opacity: 1;
   transform: translateY(0px);
 }
