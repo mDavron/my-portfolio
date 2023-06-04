@@ -332,7 +332,7 @@ i:hover {
   }
 }
 /* REVEAL */
-.reveal {
+/* .reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
@@ -341,4 +341,4 @@ i:hover {
 .reveal.active {
   opacity: 1;
   transform: translateY(0px);
-}
+} */
